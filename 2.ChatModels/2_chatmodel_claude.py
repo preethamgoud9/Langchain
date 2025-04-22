@@ -7,4 +7,4 @@ model = ChatAnthropic(model="claude-3-5-sonnet-20241022")
 
 result = model.invoke("who is the founder is twitter")
 
-print(result)
+print(result.content)
