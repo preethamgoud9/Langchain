@@ -1,0 +1,21 @@
+venv/
+# Python ignores
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# venv
+venv/
+
+# Env files
+.env
+
+# VSCode settings
+.vscode/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
