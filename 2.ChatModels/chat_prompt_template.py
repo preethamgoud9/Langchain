@@ -8,3 +8,5 @@ chat_template = ChatPromptTemplate(
 prompt = chat_template.invoke({'domain': 'technology',"topic": 'drones'})
 
 print(prompt)
+
+
